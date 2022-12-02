@@ -168,3 +168,62 @@ div.container2 button{
     margin: 10px;
 }
 
+div.container3 {
+    width: 100%;
+    max-width: 450px;
+    background-color: #ffffff;
+    padding: 15px 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.div.container3 h1 {
+    font-size: 22px;
+    color: rgb(60,60,60);
+    font-weight: 100%;
+    text-align: center;
+}
+h1 {
+    margin: 10px;
+}
+div.container3 h1{
+    font-size: 22px;
+    color: rgb(60,60,60);
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+
+div.container3 input{
+    width: 100%;
+    max-width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    outline: 0;
+    border: 1px solid rgb(100,100,100);
+    border-radius: 5px;
+    color: rgb(80,80,80);
+}
+
+div.container3 input:focus{
+    border: 1px solid slateblue;
+}
+
+div.container3 input::-webkit-inner-spin-button{
+    display: none;
+}
+
+div.container3 button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(105, 228, 236);
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    color:black
+}
